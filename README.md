@@ -1,4 +1,5 @@
 # DevNovate Blog Platform 🚀
+..
 
 ![DevNovate Banner](https://via.placeholder.com/1200x400/4F46E5/FFFFFF?text=DevNovate+Blog+Platform)
 
