@@ -1,0 +1,283 @@
+# DevNovate Blog Platform - Git Ignore File
+# Created for MERN Stack Application by BIT Durg Students
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# NYC test coverage
+.nyc_output
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript v1 declaration files
+typings/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# React build files
+build/
+
+# Logs
+logs
+*.log
+
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# MongoDB data
+data/
+*.log
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Backend uploads directory
+uploads/
+public/uploads/
+
+# Frontend build
+frontend/build/
+
+# Test coverage
+coverage/
+
+# Webpack bundle analyzer
+webpack-bundle-analyzer-report.html
+
+# Package lock files (if using yarn, ignore package-lock.json)
+# package-lock.json
+
+# Yarn lock file (if using npm, ignore yarn.lock)
+# yarn.lock
+
+# Editor directories and files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.sublime-project
+*.sublime-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Backup files
+*.backup
+*.bak
+
+# System Files
+Thumbs.db
+.DS_Store
+
+# Deployment files
+deploy/
+deployment/
+
+# Configuration files with sensitive data
+config/production.js
+config/secrets.js
+
+# Compiled CSS (if using preprocessors)
+*.css.map
+
+# Storybook build outputs
+storybook-static/
+
+# Temporary folders
+tmp/
+temp/
+
+# Runtime configuration
+.runtime
+
+# Docker
+.dockerignore
+Dockerfile.prod
+
+# Kubernetes
+k8s/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# AWS
+.aws/
+
+# Azure
+.azure/
+
+# Google Cloud
+.gcloud/
+
+# Heroku
+.heroku/
+
+# Netlify
+.netlify/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Cloudflare
+.cloudflare/
+
+# Academic and Project Files
+# (Uncomment if you want to exclude project reports, presentations, etc.)
+# *.docx
+# *.pptx
+# *.pdf
+# presentations/
+# reports/
+
+# Student-specific ignores
+# Personal notes and drafts
+notes/
+drafts/
+personal/
+
+# Hackathon submission files
+# submission/
+# demo/
+
+# Professor/TA feedback
+# feedback/
+# grades/
